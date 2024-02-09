@@ -6,9 +6,10 @@ public class LineComCompProg {
 
 		
 		
-		System.out.println("Welcome to Line\r\n"
-				+ "Comparison Computation\r\n"
+		System.out.println("Welcome to Line"
+				+ "Comparison Computation"
 				+ "Program on Master Branch");
 	}
 
 }
+// Comparison Computation Program on Master Branch
