@@ -3,9 +3,6 @@ package com.bridgelabz;
 public class LineComCompProg {
 	private double x1, y1, x2, y2;
 
-	
-	
-
 	public LineComCompProg(double x1, double y1, double x2, double y2) {
 		this.x1 = x1;
 		this.y1 = y1;
@@ -30,23 +27,22 @@ public class LineComCompProg {
 		LineComCompProg other = (LineComCompProg) obj;
 		return Double.compare(other.calculateLength(), this.calculateLength()) == 0;
 	}
+
 	private int value; // Length value
 
-    public LineComCompProg(int value) {
-        this.value = value;
-    }
+	public LineComCompProg(int value) {
+		this.value = value;
+	}
 
-    public int getValue() {
-        return value;
-    }
+	public int getValue() {
+		return value;
+	}
 
-    public int compareTo(LineComCompProg length5) {
-        // Compare the lengths based on their values
-        return Integer.compare(this.value, length5.getValue());
-    }
+	public int compareTo(LineComCompProg length5) {
+		// Compare the lengths based on their values
+		return Integer.compare(this.value, length5.getValue());
+	}
 
-	
-	
 	public static void main(String[] args) {
 
 		System.out.println("Welcome to Line" + "Comparison Computation" + "Program on Master Branch");
@@ -90,7 +86,5 @@ public class LineComCompProg {
 		}
 
 	}
-
-
 
 }
